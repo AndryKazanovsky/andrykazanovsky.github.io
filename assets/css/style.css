@@ -1,0 +1,36 @@
+@font-face{
+  font-family: RobotoSlabRegular;
+  src:url(../fonts/RobotoSlab-Regular.ttf)
+}
+
+@font-face{
+  font-family: RobotoSlabLight;
+  src:url(../fonts/RobotoSlab-Light.ttf)
+}
+
+* {
+	font-family: RobotoSlabLight;
+	font-size: 16px;
+}
+
+header {
+	text-align: center;
+	margin: 60px 0;
+}
+
+h3 {
+	font-family: RobotoSlabRegular;
+}
+
+.portfolio {
+	padding: 0 40px;
+}
+
+.portfolio p {
+	margin-bottom: 40px;
+}
+
+.portfolio a {
+	display: block;
+	margin-bottom: 10px;
+}
