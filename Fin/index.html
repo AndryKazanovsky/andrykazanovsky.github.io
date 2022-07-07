@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Finage-test</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body onload="initialize()">
+      <header class='flex header'>
+         <nav class='flex row container header__nav'>
+            <a href="#" class="header__logo"></a>
+            <ul class="flex row">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#calculator">Calculator</a></li>
+               <li><a href="#about-us">About Us</a></li>
+            </ul>
+         </nav>
+         <div class="burger">
+           <a href="#" class="burger__button" id="burger-button">
+             <span class="burger__button__icon"></span>
+           </a>
+           <ul class="burger__menu">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#calculator">Calculator</a></li>
+               <li><a href="#about-us">About Us</a></li>
+           </ul>
+         </div>
+         <div class="header__title">
+            <img src="images/Finage_Text_White.svg" alt="finage-logo" class="main-logo">
+         </div>
+         <div class="container flex row header__footer">
+            <p>
+               <a href="" class="social-icon fb"></a>
+               <a href="" class="social-icon inst"></a>
+            </p> 
+         </div>
+      </header>
+      <main>
+         <section class='container calculator' id='home'>
+          <h3>Home</h3>
+          <div class="flex row">
+            
+            <div class="plate">
+               <div class="plate__body">
+                  <div class="plate__view flex">
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="plate">
+               <div class="plate__body">
+                  <div class="plate__view flex">
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="plate">
+               <div class="plate__body">
+                  <div class="plate__view flex">
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                     <div class="plate__item">
+                        <p class="type">Lorem, ipsum</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </section>
+         
+         <section class="container calculator" id='calculator'>
+            <h3>Calculator</h3>
+            <div class="flex row">
+               <div class="plate plate-cl">
+                  <div class="plate__body">
+                     <div class="plate__view flex">
+                        <div class="plate__calculator">
+                           <div class="cl-btn__container flex">
+                              <input class="calculator-input" color="black" placeholder="Insert numbers 0 or 1" type="number" id="value">
+                              <button class="cl-btn calculator-button">calculate</button>
+                              <button class="cl-btn clear-button">clear</button>
+                           </div>
+                           <p class="values">longest zero</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <section class="container contacts" id='about-us'>
+            <h3>About Us</h3>
+            <div class="flex row contacts__block">
+               <div>
+                  <p>Phone no.</p>
+                  <a href="tel:+000 00 000 00 00">+000 00 000 00 00</a>
+               </div>
+               <div>
+                  <p>Send us an email</p>
+                  <a href="mailto:test@test.com">test@test.com</a>
+               </div>
+               <div>
+                  <p>Follow us</p>
+                  <p class="footer-icons">
+                     <a href="" class="social-icon fb"></a>
+                     <a href="" class="social-icon inst"></a>
+                  </p>
+               </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione tenetur illo vero suscipit doloribus vel saepe et quos odit, sint tempore dolorem aspernatur inventore sit laudantium amet non minima aut?</p>
+            </div>
+            <img src="images/Finage_Text_White.svg" alt="finage-logo" class="main-logo">
+         </section>
+       </main>
+       <script src='js/burger.js'></script>
+       <script src='js/calculator.js'></script>
+   </body>
+</html>
